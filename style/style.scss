@@ -27,7 +27,6 @@ $border-color: #C6CBCD;
   padding: 0;
   box-sizing: border-box;
 }
-
 .container {
     max-width: 1200px;
     width: 100%;
@@ -52,40 +51,46 @@ $border-color: #C6CBCD;
     }
 
     &__logo {
-        width: 183.86px;
-        height: 25.75px;
+        max-width: 183.86px;
+        width: 100%;
+        display: flex;
     }
 }
 
 .nav{
-
+    display: block;
+    @extend %align;
+    max-width: 670px;
+    width: 100%;
     &__list{
         max-width: 670px;
         width: 100%;
         @extend %align;
         column-gap: 30px;
+        display: flex;
         list-style-type: none;
         
     }
     &__item{
         min-width: 134px;
         width: 100%;
+        border-bottom: 3px solid transparent; 
+        
+    }
+    &__link{
+        text-decoration: none;
         padding-top: 36px;
         padding-bottom: 32px;
-        border-bottom: 3px solid transparent; 
+        font-family: $primary-font;
+        @include font(13px, 15px, 700, $white);
+        text-transform: uppercase;
+        display: block;
         &:hover{
             border-bottom: 3px solid $line-color;
         }
         &:active{
             border-bottom: 3px solid $red-hover;
         }
-    }
-    &__link{
-        text-decoration: none;
-        font-family: $primary-font;
-        @include font(13px, 15px, 700, $white);
-        text-transform: uppercase;
-        
     }
 }
 
