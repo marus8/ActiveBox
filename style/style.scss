@@ -37,10 +37,10 @@ $circle-color: #7E5D6F;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    @media (max-width: 1024px) {
+    @media (max-width: 1023px) {
         padding: 0 20px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         padding: 0 20px;
     }
   }
@@ -57,7 +57,7 @@ $circle-color: #7E5D6F;
         align-items: center;
         column-gap: 30px;
         border-bottom: 1px solid $line-color;
-        @media (max-width: 1024px) {
+        @media (max-width: 1023px) {
             column-gap: 0px;
         }
     }
@@ -66,7 +66,7 @@ $circle-color: #7E5D6F;
         max-width: 183.86px;
         width: 100%;
         display: flex;
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             max-width: 103.47px;
         }
     }
@@ -76,12 +76,12 @@ $circle-color: #7E5D6F;
         background-color: transparent;
         border: none;
         cursor: pointer;
-        @media (max-width: 1024px) {
+        @media (max-width: 1023px) {
             display: none;
             position: absolute;
         }
       
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             display: flex;
             justify-content: center;
             position: relative;
@@ -101,12 +101,12 @@ $circle-color: #7E5D6F;
     @extend %align;
     max-width: 670px;
     width: 100%;
-    @media  (max-width: 1024px) {
+    @media  (max-width: 1023px) {
         max-width: 559px;
         // width: 85%;
         // display: flex;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
        display: none;
     }
     &__list{
@@ -118,10 +118,10 @@ $circle-color: #7E5D6F;
     &__item{
         min-width: 134px;
         width: 100%;
-            @media screen and (max-width: 1024px){
+            @media screen and (max-width: 1023px){
                 min-width: 112px;
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 767px) {
                 display: none;
             }
     }
@@ -135,7 +135,7 @@ $circle-color: #7E5D6F;
         display: block;
         border-bottom: 3px solid transparent; 
         transition: all 0.5s linear;
-        @media screen and (max-width:1024px){
+        @media screen and (max-width:1023px){
             padding-top: 43px;
             padding-bottom: 39px;
             @include font(12px, 14px, 700, $white);
@@ -160,11 +160,11 @@ $circle-color: #7E5D6F;
     margin-bottom: 109px;
     padding: 237px 0 120px;
     width: 100%;
-    @media (max-width: 1024px) {
+    @media (max-width: 1023px) {
         padding: 257px 20px 128px;
         margin-bottom: 78px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         padding: 108px 0 52px;
         margin-bottom: 40px;
     }
@@ -190,11 +190,11 @@ $circle-color: #7E5D6F;
         @include font(64px, 75px, 900, $white);
         text-transform: uppercase;
         margin-bottom: 31.43px;
-        @media  (max-width:1024px) {
+        @media  (max-width:1023px) {
             @include font(48px, 56px, 900, $white);
             margin-bottom: 62px;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             @include font(36px, 42px, 900, $white);
             margin-bottom: 32px;
         }
@@ -204,11 +204,11 @@ $circle-color: #7E5D6F;
         font-family: $primary-font;
         @include font(24px, 28px, 400, $white);
         margin: 0 auto 83px;
-        @media screen and (max-width:1024px) {
+        @media screen and (max-width:1023px) {
             margin: 0 auto 89px;
             @include font(18px, 21px, 400, $white);
         }
-        @media screen and (max-width:768px) {
+        @media screen and (max-width:767px) {
             margin-bottom: 49px;
             @include font(14px, 16px, 400, $white);
         }
@@ -224,12 +224,12 @@ $circle-color: #7E5D6F;
         border: none;
         text-align: center;
         transition: all 0.5s linear;
-        @media (max-width: 1024px) {
+        @media (max-width: 1023px) {
             max-width: 314px;
             width: 100%;
             padding: 25px 10px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             max-width: 280px;
             padding: 15px 10px;
         }
@@ -247,10 +247,10 @@ $circle-color: #7E5D6F;
 
 .features{
     margin-bottom: 136px;
-    @media (max-width:1024px) {
+    @media (max-width:1023px) {
         margin-bottom: 78px;
     }
-    @media (max-width:768px) {
+    @media (max-width:767px) {
         margin-bottom: 34.85px;
     }
     
@@ -259,22 +259,22 @@ $circle-color: #7E5D6F;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 30px;
         row-gap: 90px;
-        @media screen and (max-width:1024px) {
+        @media screen and (max-width:1023px) {
             column-gap: 20px;
             row-gap: 49px;
         }
-        @media screen and (max-width:768px) {
+        @media screen and (max-width:767px) {
             grid-template-columns: repeat(1, 1fr);
             row-gap: 41.59px;
         }
     }
     &__item{
         text-align: center;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             max-width: 315px;
         }
-        @media (max-width:768px) {
-            max-width: 768px;
+        @media (max-width:767px) {
+            max-width: 767px;
 
         }
     }
@@ -283,12 +283,12 @@ $circle-color: #7E5D6F;
         height: 100px;
         margin: 0 auto 49px;
           @extend %align;
-          @media (max-width: 1024px) {
+          @media (max-width: 1023px) {
             width: 85px;
             height: 85px;
             margin: 0 auto 44px;
           }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             width: 60.56px;
             height: 75.56px;
             margin: 0 auto 39px;
@@ -299,16 +299,20 @@ $circle-color: #7E5D6F;
         @include font(24px, 28px, 900, $greyBlack);
         text-transform: uppercase;
         margin-bottom: 43px;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(18px, 21px, 900, $greyBlack);
             margin-bottom:24px;
+        }
+        @media (max-width:767px) {
+            @include font(18px, 21px, 900, $greyBlack);
+            margin-bottom: 7px;
         }
     }
     &__text{
         font-family: $primary-font;
         @include font(18px, 21px, 400, $grey);
         text-align: center;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(14px, 16px, 400, $grey);
         }
     }
@@ -320,10 +324,10 @@ $circle-color: #7E5D6F;
     align-content: center;
     gap: 2px;
     margin-bottom: 112px;
-    @media (max-width:1024px) {
+    @media (max-width:1023px) {
         margin-bottom: 79px;
     }
-    @media (max-width:768px) {
+    @media (max-width:767px) {
         margin-bottom: 35px;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -368,38 +372,38 @@ $circle-color: #7E5D6F;
         @include font(24px, 28px, 900, $white);
         text-transform: uppercase;
         padding-bottom: 45px;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(18px, 21px, 900, $white);
-            padding-bottom: 12px;
+            padding-bottom: 21px;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             padding-bottom: 0;
         }
     }
     &__text{
         font-family: $primary-font;
         @include font(18px, 21px, 400, $white);
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(14px, 16px, 400, $white);
         }
     }
 }
 .reviews{
-    margin-bottom: 112px;
-    @media (max-width:1024px) {
+    margin-bottom: 113px;
+    @media (max-width:1023px) {
         margin-bottom: 80px;
     }
-    @media (max-width:768px) {
+    @media (max-width:767px) {
         margin-bottom: -12.61px;
     }
     &__container{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 30px;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             column-gap: 24px;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             column-gap: 20px;
             grid-template-columns: repeat(1, 1fr);
         }
@@ -412,15 +416,15 @@ $circle-color: #7E5D6F;
             padding-top: 100%;
             overflow: hidden;
             margin-bottom: 31px;
-            @media (max-width:1024px) {
+            @media (max-width:1023px) {
                 padding-top: 98%;
                 max-width: 227px;
                 margin-bottom: 30px;
             }
-            @media (max-width:768px) {
+            @media (max-width:767px) {
                 margin-bottom: 26px;
                 padding-top: 81%;
-                max-width: 768px;
+                max-width: 767px;
                 width: 100%;
             }
         }
@@ -437,11 +441,11 @@ $circle-color: #7E5D6F;
             @include font(24px, 28px, 700, $greyBlack);
             margin-bottom: 5.29px;
             text-transform: capitalize;
-            @media (max-width:1024px) {
+            @media (max-width:1023px) {
                 @include font(18px, 21px, 700, $greyBlack);
                 margin-bottom: 9px;
             }
-            @media (max-width:768px) {
+            @media (max-width:767px) {
                 margin-bottom: 7.61px;
             }
         }
@@ -450,11 +454,11 @@ $circle-color: #7E5D6F;
             @include font(18px, 21px, 400, $red);
             margin-bottom: 17.86px;
             text-transform: uppercase;
-            @media (max-width:1024px) {
+            @media (max-width:1023px) {
                 @include font(14px, 16px, 400, $red);
                 margin-bottom: 22px;
             }
-            @media (max-width:768px) {
+            @media (max-width:767px) {
                 margin-bottom: 38.49px;
             }
         }
@@ -462,11 +466,11 @@ $circle-color: #7E5D6F;
             font-family: $primary-font;
             @include font(18px, 21px, 400, $grey);
             margin-bottom: 37.86px;
-            @media (max-width:1024px) {
+            @media (max-width:1023px) {
                 @include font(14px, 16px, 400, $grey);
                 margin-bottom: 39px;
             }
-            @media (max-width:768px) {
+            @media (max-width:767px) {
                 margin-bottom: 55.15px;
             }
         }
@@ -475,10 +479,10 @@ $circle-color: #7E5D6F;
 .social-icon{
     display: flex;
     column-gap: 6px;
-    @media (max-width:1024px) {
+    @media (max-width:1023px) {
         column-gap: 5px;
     }
-    @media (max-width:768px) {
+    @media (max-width:767px) {
         column-gap: 5px;
         margin-bottom: 49.39px;
     }
@@ -489,11 +493,11 @@ $circle-color: #7E5D6F;
      @extend %align;
      border: 1px solid $border-color;
      transition: all 0.5s linear;
-     @media (max-width:1024px) {
+     @media (max-width:1023px) {
         width: 32px;
         height: 32px;
      }
-     @media (max-width:768px) {
+     @media (max-width:767px) {
         width: 39.61px;
         height: 39.61px;
      }
@@ -509,19 +513,19 @@ $circle-color: #7E5D6F;
     &__container{
         display: grid;
         grid-template-columns: 49% 51%;
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             grid-template-columns: 100%;
             grid-template-rows: 39 61%;
         }
     }  
     &__wrapper-img{
         position: relative;
-        padding-top: 50%;
+        padding-top: 66%;
         overflow: hidden;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             padding-top: 66%;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             padding-top: 66%;
         }
     }
@@ -536,15 +540,15 @@ $circle-color: #7E5D6F;
     }
     &__wrapper-text{
         background-color: $slider-fon;
-        padding: 30px 30px 30px 129px;
+        padding: 50px 30px 30px 129px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        @media (max-width:1024px) {
-            padding: 47px 47px 147px 83px;
+        @media (max-width:1023px) {
+            padding: 32px 137px 82px 83px;
         }
-        @media (max-width:768px) {
-            padding: 26px 20px 99px 20px;
+        @media (max-width:767px) {
+            padding: 25px 20px 99px 17px;
         }
     }
     &__quote{
@@ -554,11 +558,11 @@ $circle-color: #7E5D6F;
         font-style: italic;
         text-transform: capitalize;
         margin-bottom: 24px;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(24px, 32px, 0, $white);
             margin-bottom: 17px;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             text-align: center;
             margin-bottom: 27px;
         }
@@ -567,21 +571,21 @@ $circle-color: #7E5D6F;
         font-family: $primary-font;
         @include font(13px, 15px, 0, $white);
         text-transform: uppercase;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(12px, 14px, 0, $white);
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             text-align: center;
         }
     }
     .swiper {
         padding-bottom: 45px;
         margin-bottom: 134px;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             padding-bottom: 32.5px;
             margin-bottom: 93.51px;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             padding-bottom: 34px;
             margin-bottom: 51.51px;
         }
@@ -592,7 +596,7 @@ $circle-color: #7E5D6F;
         display: flex;
         justify-content: center;
         column-gap: 25px;
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             column-gap: 20.51px;
         }
     }
@@ -602,7 +606,7 @@ $circle-color: #7E5D6F;
         border: 1px solid $circle-color;
         background-color: transparent;
         opacity: 1;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             height: 9.5px;
             width: 9.5px;
         }
@@ -620,10 +624,10 @@ $circle-color: #7E5D6F;
 .download{
     margin-bottom: 115px;
     text-align: center;
-    @media (max-width:1024px) {
+    @media (max-width:1023px) {
         margin-bottom: 78px;
     }
-    @media (max-width:768px) {
+    @media (max-width:767px) {
         margin-bottom: 45px;
     }
     &__title{
@@ -631,11 +635,11 @@ $circle-color: #7E5D6F;
         @include font(16px, 35px, 500, $black);
         text-transform: capitalize;
         margin-bottom: 22px;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(24px, 28px, 500, $black);
-            margin-bottom: 20px;
+            margin-bottom: 23px;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             @include font(18px, 21px, 500, $black);
             margin-bottom: 23px;
         }
@@ -645,11 +649,11 @@ $circle-color: #7E5D6F;
         @include font(18px, 21px, 700, $black);
         text-transform: uppercase;
         margin-bottom: 49px;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(14px, 16px, 700, $black);
-            margin-bottom: 45.29px;
+            margin-bottom: 44.29px;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             @include font(13px, 15px, 700, $black);
             margin-bottom: 11px;
         }
@@ -667,7 +671,7 @@ $circle-color: #7E5D6F;
         display: block;
         margin: 0 auto;
         transition: all 0.5s linear;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             max-width: 314px;
             padding: 28.5px 10px;
             @include font(18px, 21px, 900, $white);
@@ -686,10 +690,10 @@ $circle-color: #7E5D6F;
 .footer{
     background-color: $footer-fon;
     padding-top: 71px;
-    @media (max-width:1024px) {
+    @media (max-width:1023px) {
         padding-top: 47px;
     }
-    @media (max-width:768px) {
+    @media (max-width:767px) {
         padding-top: 36px;
     }
     &__container{
@@ -698,19 +702,20 @@ $circle-color: #7E5D6F;
         column-gap: 30px;
         align-items: start;
         margin-bottom: 71px;
-        @media (max-width:1024px) {
+        text-align: center;
+        @media (max-width:1023px) {
             column-gap: 20px;
-            margin-bottom: 24px;
+            margin-bottom: 39px;
         }
-        @media (max-width:768px) {
-            grid-template-columns: repeat(1, 1fr);
+        @media (max-width:767px) {
+            grid-template-columns: 1fr;
             margin-bottom: 33px;
             align-items: center;
         }
         &_copyright{
             max-width: 410px;
-            @media (max-width:1024px) {
-                max-width: 314px;
+            @media (max-width:1023px) {
+                max-width: 369px;
             }
         }
     }
@@ -720,11 +725,11 @@ $circle-color: #7E5D6F;
         text-transform: uppercase;
         margin-bottom: 29px;
         text-align: center;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(14px, 16px, 700, $white);
-            margin-bottom: 35px;
+            margin-bottom: 18px;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             margin-bottom: 36px;
            text-align: center;
         }
@@ -733,10 +738,10 @@ $circle-color: #7E5D6F;
         font-family: $primary-font;
         @include font(18px, 21px, 400, $white);
         text-transform: capitalize;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             @include font(14px, 16px, 400, $white);
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             text-align: center;
             margin-bottom: 69px;
          }
@@ -747,23 +752,24 @@ $circle-color: #7E5D6F;
             color: $white;
         }
         &_last{
-            @media (max-width:768px) {
+            @media (max-width:767px) {
                 margin-bottom: 0px;
              }
         }
     }
     &__social-icon{
         column-gap: 26px;
-        margin-top: 20px;
+        margin-top: 50px;
         display: flex;
         justify-content: center;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             column-gap: 22px;
+            margin-top: 32px;
+            
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             column-gap: 16px;
-            margin-top: 36.71px;
-            margin-top: 0;
+            margin-top: 34px;
             margin-bottom: 59px;
         }
      }
@@ -773,11 +779,11 @@ $circle-color: #7E5D6F;
         @extend %align;
         border: 1px solid $border-color;
         transition: all 0.5s linear;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
            width: 32px;
            height: 32px;
         }
-        @media (max-width:768px) {
+        @media (max-width:767px) {
             width: 33px;
             height: 33px;
          }
@@ -786,11 +792,11 @@ $circle-color: #7E5D6F;
         background-color: $copyright-fon;
         padding: 20px 0 20px;
         text-align: center;
-        @media (max-width:1024px) {
+        @media (max-width:1023px) {
             padding: 15px 0 15px;
         }
-        @media (max-width:1024px) {
-            padding: 29px 0 29px;
+        @media (max-width:767px) {
+            padding: 33px 0 29px;
         }
     }
 }
